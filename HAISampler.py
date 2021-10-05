@@ -152,7 +152,7 @@ def printStats(dataset, sampledPatterns, M, delim):
                 utilPattern += util
         statSample[str(pattern).replace('[','').replace(']','').replace(',','')]=(sampledPatterns[pattern],utilPattern/len(patt),len(patt))
     with open("XP_stat/"+name+"_"+str(M)+".txt", 'w') as outputStat:
-        outputStat.write("Pattern\t&\tAverage-Utility\t&\tLength\n")
+        outputStat.write("Pattern\t&\tFrequency in the sample\t&\tAverage-Utility\t&\tLength\n")
         for patt in statSample:
             outputStat.write(patt+"\t"+str(statSample[patt][0])+"\t"+str(statSample[patt][1])+"\t"+str(statSample[patt][2])+"\n")
     outputStat.close()
