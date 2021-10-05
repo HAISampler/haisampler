@@ -1,4 +1,4 @@
-### Hi there 👋
+### Echantillonnage d'itemsets à forte utilité moyenne sous contraintes de taille
 
 <!--
 **HISampler/hisampler** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
