@@ -179,7 +179,7 @@ if __name__ == '__main__':
     print("#############################################################################")
     print("# Welcome to the HAISampler tool for high average utility itemset sampling! #")
     print("#############################################################################\n")
-    datasets =["chess"]
+    datasets =["adult", "BMS", "chess", "foodmart", "mushroom", "retail"]
     delim = ":" # Delimits an item with its utility in a transaction
     N=10000     # The desired sample size
     M=5         # Maximum length constraint
